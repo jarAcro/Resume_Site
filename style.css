@@ -4,7 +4,6 @@
     --link-color: #3498db;
     --hover-color: #b39ddb;
     --left-div-color: #eaeaea;
-
     --header-font: "Quattrocento", serif;
 }
 
@@ -46,7 +45,7 @@ body {
 .profile-picture img {
     width: 100%;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 h1, h2 {
@@ -95,4 +94,14 @@ ul {
 
 .experience{
     margin-top: 30px;
+}
+
+.experience p, .experience h3, .experience ul li {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* On hover, slightly increase the size and shift to the right */
+.experience p:hover, .experience h3:hover, .experience ul li:hover {
+    transform: scale(1.01) translateX(4px);
+  
 }
