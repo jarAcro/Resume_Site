@@ -79,6 +79,11 @@ a:hover{
 .contact, .education, .skills, .certifications, .experience, .references {
     margin-bottom: 30px;
 }
+.contact{
+    display: grid;
+    grid-template-columns: 30px 40%;
+
+}
 
 ul {
    
