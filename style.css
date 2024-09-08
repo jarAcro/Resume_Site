@@ -1,4 +1,4 @@
-:root{
+:root {
     --grey-color: #333;
     --accent-color: #0056b3;
     --link-color: #3498db;
@@ -12,14 +12,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  font-family: var(--body-font);
+    font-family: var(--body-font);
 }
 
 body {
     font-family: Arial, sans-serif;
     color: var(--grey-color);
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,69,69,1) 35%, rgba(48,98,108,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(79, 69, 69, 1) 35%, rgba(48, 98, 108, 1) 100%);
     border-radius: 4%;
 }
 
@@ -50,7 +50,8 @@ body {
     margin-bottom: 50px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-weight: 700;
     margin-bottom: 10px;
     font-family: var(--body-font);
@@ -72,44 +73,59 @@ a {
     text-decoration: none;
     color: var(--link-color);
 }
-a:hover{
+
+a:hover {
     color: var(--hover-color)
 }
 
-.references{
+.references {
     margin-top: 230px;
 }
-.contact, .education, .skills, .certifications, .experience, .references {
+
+.contact,
+.education,
+.skills,
+.certifications,
+.experience,
+.references {
     margin-bottom: 30px;
 }
-.contact{
+
+.contact {
     display: grid;
     grid-template-columns: 30px 50%;
 
 }
 
 ul {
-   font-family: var(--body-font);
+    font-family: var(--body-font);
     padding-left: 10px;
 }
-.experience ul li{
+
+.experience ul li {
     padding: 5px 0;
 }
-.left h2, .right h2 {
+
+.left h2,
+.right h2 {
     margin-bottom: 15px;
     color: var(--accent-color);
 }
 
-.experience{
+.experience {
     margin-top: 30px;
 }
 
-.experience p, .experience h3, .experience ul li {
+.experience p,
+.experience h3,
+.experience ul li {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* On hover, slightly increase the size and shift to the right */
-.experience p:hover, .experience h3:hover, .experience ul li:hover {
+.experience p:hover,
+.experience h3:hover,
+.experience ul li:hover {
     transform: scale(1.01) translateX(4px);
-  
+
 }
