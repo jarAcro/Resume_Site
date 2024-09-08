@@ -5,12 +5,14 @@
     --hover-color: #b39ddb;
     --left-div-color: #eaeaea;
     --header-font: "Quattrocento", serif;
+    --body-font: "Montserrat", serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  font-family: var(--body-font);
 }
 
 body {
@@ -51,7 +53,7 @@ body {
 h1, h2 {
     font-weight: 700;
     margin-bottom: 10px;
-    font-family: var(--header-font);
+    font-family: var(--body-font);
 }
 
 h3 {
@@ -63,6 +65,7 @@ h3 {
 
 p {
     margin-bottom: 10px;
+    font-family: var(--body-font);
 }
 
 a {
@@ -81,12 +84,12 @@ a:hover{
 }
 .contact{
     display: grid;
-    grid-template-columns: 30px 40%;
+    grid-template-columns: 30px 50%;
 
 }
 
 ul {
-   
+   font-family: var(--body-font);
     padding-left: 10px;
 }
 .experience ul li{
