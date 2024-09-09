@@ -90,6 +90,9 @@ a:hover {
 .references {
     margin-bottom: 30px;
 }
+.Education, .skills, .contact{
+    margin-bottom: 40px;
+}
 
 .contact {
     display: grid;
