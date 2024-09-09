@@ -170,16 +170,15 @@ ul {
 
 .references-container div {
     flex: 1;
-    max-width: 45%;
+    max-width: 50%;
 }
 
 .references-container p {
     margin: 0;
+    
 }
 
-.ref-1 {
-    margin: 0;
-}
+
 
 /*--------------------------------------Scroll bar---------------------------------------------------------------*/
 
