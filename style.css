@@ -86,8 +86,8 @@ a:hover {
     color: var(--hover-color)
 }
 
-.references {
-    margin-top: 230px;
+.references{
+    margin-top: 40px;
 }
 
 
@@ -139,7 +139,14 @@ ul {
     transform: scale(1.01) translateX(4px);
 
 }
-
+.interests-lists{
+    display: grid;
+    grid-template-columns: 190px 250px;
+    grid-template-rows: auto;
+}
+.interests{
+margin-top: 20%;
+    }
 
 ::-webkit-scrollbar {
     width: 10px;
