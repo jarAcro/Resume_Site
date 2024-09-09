@@ -16,6 +16,11 @@
     font-family: var(--body-font);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     color: var(--grey-color);
@@ -160,7 +165,7 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+
 }
 
 .references-container div {
@@ -172,6 +177,9 @@ ul {
     margin: 0;
 }
 
+.ref-1 {
+    margin: 0;
+}
 
 /*--------------------------------------Scroll bar---------------------------------------------------------------*/
 
@@ -194,6 +202,76 @@ ul {
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--grey-color);
+}
+
+
+/*-----------------toggle language button-----------------------------*/
+
+.language-toggle {
+    position: fixed;
+    top: 20px;
+    right: 70px;
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.language-toggle.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#languageToggle {
+    padding: 10px 15px;
+
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: var(--body-font);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#languageToggle:hover {
+    background-color: var(--hover-color);
+    transform: scale(1.05);
+}
+
+#languageToggle:active {
+    transform: scale(0.95);
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .language-toggle {
+        top: 10px;
+        right: 10px;
+    }
+
+    #languageToggle {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .language-toggle {
+        top: 5px;
+        right: 5px;
+    }
+
+    #languageToggle {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
 }
 
 /*--------------------Responsive code--------------------------------------------------------*/
