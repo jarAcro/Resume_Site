@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const languageToggle = document.querySelector('.language-toggle');
     let lastScrollTop = 0;
-    const scrollThreshold = 100; // Adjust this value to change when the button starts fading
+    const scrollThreshold = 50; // Adjust this value to change when the button starts fading
 
     window.addEventListener('scroll', function() {
-        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        let scrollTop = window.scrollY || document.documentElement.scrollTop;
         
         if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
             // Scrolling down and past the threshold
