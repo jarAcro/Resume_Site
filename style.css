@@ -5,7 +5,7 @@
     --hover-color: #b39ddb;
     --left-div-color: #eaeaea;
     --header-font: "Quattrocento", serif;
-    --body-font: "Montserrat", serif;
+    --font: "Montserrat", serif;
     --scroll-bar-color: #1d5061;
 }
 
@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--body-font);
+    font-family: var(--font);
 }
 
 html {
@@ -69,19 +69,19 @@ h1,
 h2 {
     font-weight: 700;
     margin-bottom: 10px;
-    font-family: var(--body-font);
+    font-family: var(--font);
 }
 
 h3 {
     font-weight: 500;
     color: var(--grey-color);
     margin-bottom: 10px;
-    font-family: var(--header-font);
+    font-family: var(--font);
 }
 
 p {
     margin-bottom: 10px;
-    font-family: var(--body-font);
+    font-family: var(--font);
 }
 
 a {
@@ -118,7 +118,7 @@ a:hover {
 }
 
 ul {
-    font-family: var(--body-font);
+    font-family: var(--font);
     padding-left: 10px;
 }
 
@@ -227,7 +227,7 @@ ul {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    font-family: var(--body-font);
+    font-family: var(--font);
     font-size: 16px;
     font-weight: bolder;
 }
@@ -273,7 +273,7 @@ ul {
     }
 }
 
-/*--------------------Responsive code--------------------------------------------------------*/
+
 
 @media screen and (max-width: 768px) {
     .container {
