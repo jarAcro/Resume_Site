@@ -7,6 +7,7 @@
     --header-font: "Quattrocento", serif;
     --font: "Montserrat", serif;
     --scroll-bar-color: #1d5061;
+    --link-color: #0bbefa;
     /*
      --light-grey-color: #333;
     --accent-color: #0056b3;
@@ -33,8 +34,11 @@ html {
 body {
     font-family: Arial, sans-serif;
     color: var(--dark-color);
+    background-color: #575857;
+    /*
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(79, 69, 69, 1) 35%, rgba(48, 98, 108, 1) 100%);
+    */
     border-radius: 4%;
 }
 
@@ -185,7 +189,7 @@ ul {
 
 .references-container p {
     margin: 0;
-    
+
 }
 
 
