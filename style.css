@@ -111,7 +111,10 @@ a:hover {
 .references {
     margin-top: 60px;
 }
-
+img:hover{
+    transform: scale(1.05);
+    transition: all 1s ease-in-out;
+}
 
 .education,
 .skills,
